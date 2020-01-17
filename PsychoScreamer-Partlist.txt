@@ -1,0 +1,60 @@
+Partlist
+
+Exported from TubeScreamer.brd at 1/12/20 4:05 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package     Library          Position (mil)        Orientation
+
++9V      +9V(T)         SQUARE      mb_supply        (841.92913 100)       R0
+C1       0.022uF        070X030     mb_caps-chicklet (439.37008 389.37008) R90
+C2       1uF            072X035     mb_caps-box      (1085.35433 789.68504) R0
+C3       0.047uF        070X030     mb_caps-chicklet (477.16535 1649.2126) R270
+C4       51pF           050X030_025 mb_caps-ceramic  (1336.02362 1607.87402) R270
+C5       0.22uF         072X035     mb_caps-box      (362.79528 797.04724) R90
+C7       47uF           063_025     mb_caps-electro  (228.93701 1663.58268) R0
+C8       1uF            072X035     mb_caps-box      (769.88189 1638.18898) R90
+C9       0.22uF         072X035     mb_caps-box      (1648.85827 1270.47244) R180
+C10      0.1uF          072X035     mb_caps-box      (1690.94488 614.96063) R90
+C11      10uF           063_025     mb_caps-electro  (1792.91339 179.72441) R0
+C12      100uF          080_035     mb_caps-electro  (189.37008 193.70079) R270
+D1       1N914          DO35-3      mb_diodes        (1787.00787 1656.88976) R270
+D2       1N914          DO35-3      mb_diodes        (1917.91339 1657.67717) R90
+D4       LED3MM         LED3MM      mb_diodes        (1046.25984 100)      R180
+D5       1N914          DO35-3      mb_diodes        (597.83465 388.18898) R90
+D6       LED3MM         LED3MM      mb_diodes        (1508.66142 1602.04724) R270
+D7       LED3MM         LED3MM      mb_diodes        (1657.75591 1600.51181) R90
+DRIVE    A500K          16MM        mb_pots          (924.96063 1500.7874) R90
+GD2      GND(T)         SQUARE      mb_supply        (225 1890)            R0
+GND      GND(T)         SQUARE      mb_supply        (1217.51969 100)      R0
+IC31     JRC4558D       DIL08       mb_ics           (1220.66929 484.25197) R180
+IN       IN(T)          SQUARE      mb_supply        (589.37008 100)       R0
+LED      3mm            SQUARE      mb_supply        (718.11024 100)       R0
+OUT      OUT(T)         SQUARE      mb_supply        (1342.67717 100.15748) R0
+Q1       2N4401         TO92-       mb_trans         (206.69291 542.32283) R270
+Q2       2N4401         TO92-       mb_trans         (1555.51181 308.07087) R90
+R1       1k             R0207/3     mb_resistors     (548.26772 799.09449) R90
+R2       510k           R0207/3     mb_resistors     (370.27559 1249.2126) R90
+R3       10k            R0207/3     mb_resistors     (1507.67717 700.19685) R270
+R5       10k            R0207/3     mb_resistors     (1626.06299 979.09449) R270
+R6       4k7            R0207/3     mb_resistors     (226.1811 1250)       R270
+R7       51k            R0207/3     mb_resistors     (1404.92126 1789.76378) R180
+R8       1k             R0207/3     mb_resistors     (645.86614 1246.41732) R270
+R9       10k            R0207/3     mb_resistors     (859.96063 796.61417) R90
+R10      10k            R0207/3     mb_resistors     (695.31496 796.61417) R90
+R11      220R           R0207/3     mb_resistors     (1676.33858 1395.82677) R0
+R12      511k           R0207/3     mb_resistors     (1220.7874 919.56693) R0
+R13      10k            R0207/3     mb_resistors     (1763.89764 976.69291) R90
+R14      10k            R0207/3     mb_resistors     (1872.6378 979.05512) R270
+R15      100R           R0207/3     mb_resistors     (1873.50394 567.67717) R90
+R16      10k            R0207/3     mb_resistors     (516.53543 1247.6378) R90
+R17      1k             R0207/3     mb_resistors     (1380.27559 1227.12598) R90
+R18      1k             R0207/3     mb_resistors     (618.30709 1650.19685) R90
+R22      1M5            R0207/3     mb_resistors     (739.52756 389.37008) R270
+R23      4k7            R0207/3     mb_resistors     (894.98031 385.33465) R90
+SW1      DIODES         M9040P      mb_switches      (1402.16535 1966.85039) R270
+SW2      FAT            M9040P      mb_switches      (650 1970)            R90
+TONE     W20K           16MM        mb_pots          (1031.49606 1116.53543) R180
+VOLUME   A100K          16MM        mb_pots          (1118.58268 1500.55118) R270
